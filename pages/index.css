@@ -2,4 +2,11 @@
 @import url("../vendor/fonts/fonts.css");
 /* page */
 @import url("../blocks/page/page.css");
-
+/* description */
+@import url("../blocks/description/description.css");
+/* two-columns */
+@import url("../blocks/two-columns/two-columns.css");
+@import url("../blocks/two-columns/__brief/two-columns__briefs.css");
+@import url("../blocks/two-columns/__main-text/two-columns__main-text.css");
+@import url("../blocks/two-columns/__paragraph/two-columns__paragraph.css");
+@import url("../blocks/two-columns/__span-accent/two-columns__span-accent.css");

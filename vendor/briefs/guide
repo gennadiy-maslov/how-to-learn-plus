@@ -1,0 +1,3 @@
+npm install (npm i --production) - установка зависимостей
+npx stylelint "**/*.css" - запуск stylelint из консоли  https://stylelint.io/user-guide/usage/cli
+npx stylelint "**/*.css" --fix -- исправляем файлы авто
