@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "stylelint-config-property-sort-order-smacss": "^9.0.0"
+  }
+}
