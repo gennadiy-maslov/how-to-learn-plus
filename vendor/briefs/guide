@@ -1,3 +1,12 @@
 npm install (npm i --production) - установка зависимостей
 npx stylelint "**/*.css" - запуск stylelint из консоли  https://stylelint.io/user-guide/usage/cli
 npx stylelint "**/*.css" --fix -- исправляем файлы авто
+
+
+почитать про оптимизацию шрифтов
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+-webkit-text-size-adjust: 100%;
+-ms-font-feature-settings: "kern" 1;
+font-feature-settings: "kern";
