@@ -14,3 +14,4 @@
 - Анимации и трансформации
 
 ## Ссылка на страницу:
+https://gennadiy-maslov.github.io/how-to-learn-plus/
