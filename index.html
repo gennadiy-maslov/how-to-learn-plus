@@ -13,21 +13,21 @@
 </head>
 <body class="page">
   <header class="header">
-    <a href="https://practicum.yandex.ru/" target="_blank" class="link link_animated">
+    <a href="https://practicum.yandex.ru/" target="_blank" class="page__link">
       <img src="./images/logo_place_header.svg" alt="логотип сервиса онлайн-образования 'яндекс практикум'"
             class="logo logo_place_header">
     </a>
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">
       Какие современные и&nbsp;эффективные подходы к&nbsp;обучению вы&nbsp;можете использовать в&nbsp;своей жизни?
-      <a class="header__link link link_animated" href="#">Узнать &rarr;</a>
+      <a class="header__link page__link" href="#">Узнать &rarr;</a>
     </p>
     <img src="./images/header-image.png" alt="фрагмент картины 'опять двойка'" class="header__main-illustration">
-    <div class="header__square-pic animation"></div>
+    <div class="header__square-pic rotation"></div>
   </header>
   <main class="content">
     <section class="description">
-      <div class="two-columns">
+      <article class="two-columns" aria-label="Главные проблемы в обучении">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">
@@ -45,9 +45,9 @@
             и&nbsp;захватывающим. Эти&nbsp;же техники применяются на&nbsp;примере обучения в&nbsp;Практикуме.
           </p>
         </div>
-      </div>
+      </article>
     </section>
-    <section class="techniques centered-block">
+    <section class="techniques page__section">
       <h2 class="section-title">Техники обучения</h2>
       <p class="section-subtitle page__section-subtitle">Пять практик от Барбары Оакли</p>
       <ul class="cards">
@@ -92,14 +92,12 @@
       <h2 class="section-title">Видео нa TED</h2>
       <p class="section-subtitle page__section-subtitle">Для тех, кто любит прокрастинировать</p>
       <div class="video__iframes">
-        <iframe class="video__iframe" width="513" height="316"
-                src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-        <iframe class="video__iframe" width="513" height="316"
-                src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
       </div>
     </section>
     <section class="oakley">
-      <div class="two-columns">
+      <article class="two-columns" aria-label="История Барбары Оакли">
         <h2 class="two-columns__brief">История Барбары Оакли.</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">
@@ -111,12 +109,12 @@
             ясно с&nbsp;первого взгляда.
           </p>
         </div>
-      </div>
+      </article>
     </section>
     <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
-      <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-      <a href="#" class="feynman__link link link_animated">Подробнее &rarr;</a>
+      <p class="feynman__subtitle">Выучить и не забыть.</p>
+      <a href="#" class="feynman__link page__link">Подробнее &rarr;</a>
     </section>
     <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
@@ -159,7 +157,7 @@
       </ul>
     </section>
     <section class="khan">
-      <div class="khan__container centered-block">
+      <div class="khan__container page__section">
         <p class="khan__author">Салман Хан</p>
         <h2 class="khan__title">Весь мир — школа</h2>
         <blockquote class="khan__quote">
@@ -178,7 +176,7 @@
         </p>
         <div class="khan__book-container">
           <img src="./images/khan-book.jpg" alt="фотография обложки книги 'Весь мир — школа'" class="khan__book-pic">
-          <a href="#" class="khan__buy-link link link_animated">Купить книгу &rarr;</a>
+          <a href="#" class="khan__buy-link page__link">Купить книгу &rarr;</a>
         </div>
       </div>
     </section>
@@ -228,29 +226,29 @@
           <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
         </li>
       </ul>
-      <div class="kaufman__triangle animation"></div>
+      <div class="kaufman__triangle rotation"></div>
     </section>
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle page__section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <ul class="resources__logo-zone">
         <li class="resources__item">
-          <a href="https://arzamas.academy/" target="_blank" class="resources__link link link_animated">
+          <a href="https://arzamas.academy/" target="_blank" class="resources__link page__link">
             <img src="./images/logo/resources-arzamas.svg" alt="логотип проекта 'арзамас'" class="resources__logo">
           </a>
         </li>
         <li class="resources__item">
-          <a href="https://nplus1.ru/" target="_blank" class="resources__link link link_animated">
+          <a href="https://nplus1.ru/" target="_blank" class="resources__link page__link">
             <img src="./images/logo/resources-n1.svg" alt="логотип интернет издания 'n+1'" class="resources__logo">
           </a>
         </li>
         <li class="resources__item">
-          <a href="https://store.strelka.com/" target="_blank" class="resources__link link link_animated">
+          <a href="https://store.strelka.com/" target="_blank" class="resources__link page__link">
             <img src="./images/logo/resources-strelka.svg" alt="логотип издательства 'стрелка'" class="resources__logo">
           </a>
         </li>
         <li class="resources__item">
-          <a href="https://polka.academy/" target="_blank" class="resources__link link link_animated">
+          <a href="https://polka.academy/" target="_blank" class="resources__link page__link">
             <img src="./images/logo/resources-polka.svg" alt="логотип проекта 'полка'" class="resources__logo">
           </a>
         </li>
@@ -258,58 +256,58 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="footer__columns centered-block">
+    <div class="footer__columns page__section">
       <div class="footer__column footer__column_content_copyright">
-        <a href="https://practicum.yandex.ru/" target="_blank" class="link link_animated">
+        <a href="https://practicum.yandex.ru/" target="_blank" class="page__link">
           <img src="./images/logo_place_footer.svg" alt="логотип сервиса онлайн-образования 'яндекс практикум'"
                class="logo logo_place_footer">
         </a>
         <p class="footer__author">&#169; Геннадий Маслов</p>
       </div>
-      <div class="footer__column footer__column_content_info">
+      <nav class="footer__column footer__column_content_info">
         <h3 class="footer__column-heading">О Практикуме</h3>
         <ul class="footer__column-links">
           <li class="footer__column-item">
-            <a href="https://practicum.yandex.ru/" target="_blank" class="footer__column-link link link_animated">
+            <a href="https://practicum.yandex.ru/" target="_blank" class="footer__column-link page__link">
               Главная
             </a>
           </li>
           <li class="footer__column-item">
             <a href="https://practicum.yandex.ru/web-plus/#Demo" target="_blank"
-               class="footer__column-link link link_animated">
+               class="footer__column-link page__link">
               Концепция
             </a>
           </li>
           <li class="footer__column-item">
             <a href="https://practicum.yandex.ru/web-plus/#TabsCase" target="_blank"
-               class="footer__column-link link link_animated">
+               class="footer__column-link page__link">
               Наставники
             </a>
           </li>
         </ul>
-      </div>
-      <div class="footer__column footer__column_content_social">
+      </nav>
+      <nav class="footer__column footer__column_content_social">
         <h3 class="footer__column-heading">Соцсети</h3>
         <ul class="footer__column-links">
           <li class="footer__column-item">
             <a href="https://www.youtube.com/@YandexPracticum" target="_blank"
-               class="footer__column-link link link_animated"
+               class="footer__column-link page__link"
                lang="en">
               <img src="./images/youtube-icon.svg" alt="перейти на ютуб" class="footer__social-icon"> YouTube
             </a>
           </li>
           <li class="footer__column-item">
-            <a href="https://vk.com/yandex.practicum" target="_blank" class="footer__column-link link  link_animated">
+            <a href="https://vk.com/yandex.practicum" target="_blank" class="footer__column-link page__link">
               <img src="./images/vk_color_white.svg" alt="перейти во вконтакте" class="footer__social-icon"> ВКонтакте
             </a>
           </li>
           <li class="footer__column-item">
-            <a href="https://www.tiktok.com/" target="_blank" class="footer__column-link link  link_animated" lang="en">
+            <a href="https://www.tiktok.com/" target="_blank" class="footer__column-link page__link" lang="en">
               <img src="./images/tiktok-icon.svg" alt="перейти в тик-ток" class="footer__social-icon"> TikTok
             </a>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   </footer>
 </body>
